@@ -1,0 +1,7 @@
+# Crawlers read robots.txt only at the root of a host, so this file covers every project published
+# under ai-theories.github.io.
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-theories.github.io/sitemap.xml
+Sitemap: https://ai-theories.github.io/wealth-skills/sitemap.xml

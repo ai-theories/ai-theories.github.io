@@ -1,0 +1,9 @@
+# ai-theories
+
+> Open-source projects published at ai-theories.github.io.
+
+## Projects
+
+- [Wealth Skills](https://ai-theories.github.io/wealth-skills/llms.txt): wealth skills and investing skills for Claude, Claude Code, Codex and Cursor. Claude skills (SKILL.md packs) for wealth management, zero-dependency calculation engines, a CLI and MCP servers for tax, portfolios, compliance and fund operations.
+- [Wealth Skills full documentation](https://ai-theories.github.io/wealth-skills/llms-full.txt): the README and every skill pack in one file.
+- [Wealth Skills source code](https://github.com/ai-theories/wealth-skills)
