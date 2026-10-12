@@ -1,7 +1,73 @@
 # Crawlers read robots.txt only at the root of a host, so this file covers every project published
-# under ai-theories.github.io.
+# under ai-theories.github.io. A robots.txt inside a project directory is never fetched, which is why
+# the answer-engine blocks below live here rather than beside each project.
 User-agent: *
+Allow: /
+
+# Named so the intent is explicit rather than merely permitted: these pages are written to be read
+# and quoted by an assistant. A bare "Allow: /" above already permits every one of them.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
 Allow: /
 
 Sitemap: https://ai-theories.github.io/sitemap.xml
 Sitemap: https://ai-theories.github.io/wealth-skills/sitemap.xml
+Sitemap: https://ai-theories.github.io/tax-skills/sitemap.xml
+
+# Summaries written for language models:
+#   https://ai-theories.github.io/llms.txt
+#   https://ai-theories.github.io/wealth-skills/llms.txt
+#   https://ai-theories.github.io/tax-skills/llms.txt

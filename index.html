@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ai-theories: Open-Source Projects, Including Wealth Skills</title>
-  <meta name="description" content="Open-source projects from ai-theories, including Wealth Skills: Claude skills and investing skills for wealth management, with MCP servers and a CLI.">
+  <title>ai-theories: Open-Source Projects — Wealth Skills and Tax Skills</title>
+  <meta name="description" content="Open-source projects from ai-theories: Wealth Skills, Claude skills for wealth management and investing, and Tax Skills, Claude skills for US investment tax analysis. MCP servers, calculation engines and a CLI.">
   <link rel="canonical" href="https://ai-theories.github.io/">
   <meta name="google-site-verification" content="BqiomYE3uK-MmeB_IewdbsQLaHxOSYzdLKFqmtyYejU">
   <link rel="alternate" type="text/plain" href="https://ai-theories.github.io/llms.txt" title="LLM-readable summary">
   <meta property="og:type" content="website">
   <meta property="og:title" content="ai-theories: Open-Source Projects">
-  <meta property="og:description" content="Home of Wealth Skills: Claude skills and investing skills for wealth management.">
+  <meta property="og:description" content="Home of Wealth Skills and Tax Skills: Claude skills for wealth management, investing and US investment tax analysis.">
   <meta property="og:url" content="https://ai-theories.github.io/">
   <meta property="og:image" content="https://ai-theories.github.io/wealth-skills/og-image.png">
   <script type="application/ld+json">
@@ -19,13 +19,26 @@
     "@type": "WebSite",
     "name": "ai-theories",
     "url": "https://ai-theories.github.io/",
-    "hasPart": {
-      "@type": "SoftwareApplication",
-      "name": "Wealth Skills",
-      "url": "https://ai-theories.github.io/wealth-skills/",
-      "codeRepository": "https://github.com/ai-theories/wealth-skills",
-      "applicationCategory": "FinanceApplication"
-    }
+    "hasPart": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Wealth Skills",
+        "url": "https://ai-theories.github.io/wealth-skills/",
+        "codeRepository": "https://github.com/ai-theories/wealth-skills",
+        "applicationCategory": "FinanceApplication"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Tax Skills",
+        "alternateName": "Tax Agent",
+        "url": "https://ai-theories.github.io/tax-skills/",
+        "codeRepository": "https://github.com/ai-theories/tax-skills",
+        "applicationCategory": "FinanceApplication",
+        "description": "Claude skills for US investment tax analysis: lot-level gain and loss, wash-sale screening across accounts and UMA sleeves, loss harvesting and rebalancing under a gain budget, and municipal bond pricing.",
+        "license": "https://www.apache.org/licenses/LICENSE-2.0",
+        "isAccessibleForFree": true
+      }
+    ]
   }
   </script>
   <style>
@@ -48,6 +61,13 @@
       <p>Claude skills for wealth management and investing. Wealth skills and investing skills for Claude, Claude Code, Codex and Cursor: skill packs, calculation engines, a CLI and MCP servers for tax and retirement planning, portfolio risk and performance, compliance and fund operations, with human review built in.</p>
       <p><a href="https://ai-theories.github.io/wealth-skills/">Try the calculators</a> · <a href="https://github.com/ai-theories/wealth-skills">Source on GitHub</a> · <a href="https://ai-theories.github.io/wealth-skills/llms.txt">llms.txt</a></p>
     </section>
+
+    <section class="card">
+      <h2><a href="https://ai-theories.github.io/tax-skills/">Tax Skills</a></h2>
+      <p>Claude skills for US investment tax analysis. Lot-level gain and loss, wash-sale screening that spans accounts and UMA sleeves and catches a purchase a manager has planned but not placed, loss harvesting and rebalancing under a gain budget, municipal bond pricing, and federal estimates — every figure computed by a deterministic Python engine behind nine MCP servers, with versioned rule packs where each rule cites its authority. Analysis only: it places no trades.</p>
+      <p><a href="https://ai-theories.github.io/tax-skills/">See what it does</a> · <a href="https://ai-theories.github.io/tax-skills/cases.html">All 301 tested cases</a> · <a href="https://github.com/ai-theories/tax-skills">Source on GitHub</a> · <a href="https://ai-theories.github.io/tax-skills/llms.txt">llms.txt</a></p>
+    </section>
+
   </main>
 </body>
 </html>
